@@ -1,0 +1,19 @@
+.container {
+    max-width: 1310px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media only screen and(max-width : $tablet){
+    .container{
+      max-width: 719px;
+    }
+  }
+
+  @media only screen and(max-width : $mobile){
+    .container{
+      max-width: 719px;
+    }
+  }
